@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import userData from '../data/user.json';
+// import userData from '../data/user.json';
 
-const Profile = () => {
-  const { username, tag, location, avatar, stats } = userData;
+const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     // Тело компонента
     <div className="profile">
@@ -14,7 +13,7 @@ const Profile = () => {
           className="avatar"
         />
         <p className="name">{username}</p>
-        <p className="tag">{tag}</p>
+        <p className="tag">@{tag}</p>
         <p className="location">{location}</p>
       </div>
 

@@ -62,8 +62,8 @@ padding-bottom: 20px;
 
   .description,
   .stats{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Эле заметная тень */
-    border: 0.2px solid rgba(0, 0, 0, 0.1); /* Эле заметная рамка */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border: 0.2px solid rgba(0, 0, 0, 0.1); 
  
   }
 
@@ -115,7 +115,7 @@ background-color: rgb(219, 236, 236);
   display: flex;
   flex-direction: column;
   padding: 15px 7px 15px 7px;
-  flex-basis: 33.33%; /* Разделение на три равные части */
+  flex-basis: 33.33%; 
   border-right: 0.3px solid #ccc;
   align-items: center;
 }

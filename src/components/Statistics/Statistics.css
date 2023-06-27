@@ -1,0 +1,40 @@
+/* ----------------Statistics---------- */
+.statistics{
+    background-color: #ebdada;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(0, 0, 0);
+  
+    }
+    .statistics h2{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .stat-list{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .stat-list .item{
+      display: flex;
+      flex-direction: column;
+  
+      align-items: center;
+      padding: 10px 10px;
+      border: 1px solid rgb(0, 0, 0);
+      background-color: rgb(159, 180, 226);
+  
+    }
+    .item_lable{
+      color:rgb(131, 127, 121);
+      font-size: 15px;
+      padding-bottom: 10px;
+  
+    }
+  
+    .percentage{
+      font-size: 15px;
+      color: #f3efef;
+     }

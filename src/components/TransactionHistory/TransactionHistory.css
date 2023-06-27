@@ -1,0 +1,33 @@
+/* -----Transaction history------- */
+.transaction-history{
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 600px;
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: rgb(73, 72, 72) 1px 1px 5px;
+  }
+  
+  .table-title{
+    background-color: rgb(29, 215, 248);
+      color: rgb(255, 255, 255);
+   
+  }
+  .table-title tr > th{
+    padding: 10px 10px 10px 10px;
+    font-size: large;
+  }
+  
+  .transaction-history tbody tr:nth-child(odd) {
+    background-color: white;
+  }
+  
+  .transaction-history tbody tr:nth-child(even) {
+    background-color: rgb(208, 219, 219);
+  }
+  .transaction-history tr > td{
+  padding: 10px 10px 10px 80px;
+  
+  }

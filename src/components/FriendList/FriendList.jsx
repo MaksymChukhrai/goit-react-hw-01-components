@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import friends from '../data/friends.json';
+import friends from '../../data/friends.json';
 
 const FriendList = () => {
     return (

@@ -1,0 +1,40 @@
+/* ------------Friendlist----------*/
+.friend-list{
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+
+   }
+   .friend-list li{
+    width: 250px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgb(73, 72, 72) 1px 1px 5px;
+    background-color: rgb(217, 237, 238);
+
+   }
+   .avatar,
+   .status,
+   .name{
+      margin-left: 30px;
+   }
+    .status {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+   
+   .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }

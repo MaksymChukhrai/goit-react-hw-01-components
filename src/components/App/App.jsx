@@ -12,7 +12,7 @@ import items from '../../data/transactions.json';
 export const App = () => {
   return (
     <div className="app">
-       <Profile
+      <Profile
         username={userData.username}
         tag={userData.tag}
         location={userData.location}
@@ -20,8 +20,8 @@ export const App = () => {
         stats={userData.stats}
       />
       <Statistics title="Upload stats" stats={statisticData} />
-         <FriendList friends={friends} />
-         <TransactionHistory items={items}/>
+      <FriendList friends={friends} />
+      <TransactionHistory items={items} />
     </div>
   );
 };

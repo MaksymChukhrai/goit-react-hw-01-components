@@ -1,22 +1,19 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-
-
-const TransactionHistory =({items}) =>{
-
-return (
+const TransactionHistory = ({ items }) => {
+  return (
     <table className="transaction-history">
-  <thead className= "table-title">
-    <tr>
-      <th>Type</th>
-      <th>Amount</th>
-      <th>Currency</th>
-    </tr>
-  </thead>
+      <thead className="table-title">
+        <tr>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Currency</th>
+        </tr>
+      </thead>
 
-  <tbody>
-        {items.map((item) => (
+      <tbody>
+        {items.map(item => (
           <tr key={item.id}>
             <td>{item.type}</td>
             <td>{item.amount}</td>
@@ -24,22 +21,19 @@ return (
           </tr>
         ))}
       </tbody>
-</table>
-);
-
+    </table>
+  );
 };
 
 TransactionHistory.propTypes = {
-items: PropTypes.arrayOf(
-PropTypes.shape({
-    id:PropTypes.string.isRequired,
-    type:PropTypes.string.isRequired,
-    amount: PropTypes.number.isRequired,
-    currency: PropTypes.string.isRequired,
-})
-
-).isRequired,
-
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
+      currency: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default TransactionHistory;
